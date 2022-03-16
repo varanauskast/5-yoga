@@ -1,0 +1,9 @@
+header, main {
+    background-color: yellow; 
+    width: 800px; 
+    margin-left: calc(50% - 400px); 
+}
+
+main { 
+    margin-top: 100px; 
+}
