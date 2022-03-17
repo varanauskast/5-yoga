@@ -55,7 +55,6 @@ main > div {
     width: 45%;
     float: left;
     padding-right: 10%;
-    background: pink;
 
 }
 
@@ -73,6 +72,8 @@ div > p {
 manin > img {
     width: 55%;
     height: 300px;
-    background: green;
     float: left;
+    object-fit: contain;
+    object-position:bottom right;
+
 }
