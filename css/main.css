@@ -15,6 +15,7 @@ body > main {
     display: inline-block;
     width: 1000px; ;
     margin-left: calc(50% - 500px); 
+    margin: ;
 }
 
 body > main { 
@@ -59,13 +60,27 @@ main > div {
 }
 
 div > h1 {
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-weight: normal;
 }
 
+h1 > span {
+    color: tomato;
+}
 div > p {
+    margin-bottom: 25px;
+
 }
 
  div > a {
-     background-color: red;
+     padding: 10px;
+     padding-left: 25px;
+     padding-right: 25px;
+     color: white;
+     text-decoration: none;
+     background-color: rgb(233, 136, 24);
+     border-radius: 5px;
  } 
 
 
